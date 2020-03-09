@@ -38,6 +38,7 @@ public class StringFormat {
 	/**
 	 * If user provide a customized dictionary of valid English words as additional input, and the
 program will find all the valid words in the both dictionaries
+                      根据字符串word,和用户字典userDictionary,还有对象的字典来打印
 	 * @param word
 	 * @param userDictionary
 	 */
@@ -51,6 +52,7 @@ program will find all the valid words in the both dictionaries
 	/**
 	 * If user provide a customized dictionary of valid English words as additional input, and the
 program will only find in the user customized dictionary
+                   根据字符串word,和用户字典userDictionary打印
 	 * @param word
 	 * @param userDictionary
 	 */
@@ -60,6 +62,7 @@ program will only find in the user customized dictionary
 	/**
 	 * Given a valid sentence without any spaces between the words and a dictionary of valid
 English words, find all possible ways to break the sentence in individual dictionary words.
+	 * 根据字符串word打印
 	 * @param word
 	 */
 	public void takeWord(String word){
